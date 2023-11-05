@@ -1,3 +1,5 @@
+# Introducción
+
 Para validar la versión instalada de Git
 
 ```bash
@@ -67,3 +69,19 @@ utilice el comando "ls -a" para visualizar el contenido de la carpeta que ahora 
 ```bash
 ls -a
 ```
+
+# Comandos Básicos
+
+Git recuerda los cambios efectuados en los archivos como si tomara instantáneas del sistema de archivos.
+
+Vamos a hablar de algunos comandos básicos para iniciar el seguimiento de los archivos del repositorio. Luego va a guardar la primera "instantánea" con la que Git va a comparar.
+
+**git status**: Muestra el estado del árbol de trabajo (y del área de almacenamiento provisional, de la que pronto hablaremos más). Permite ver los cambios que Git está siguiendo en ese momento para poder decidir si quiere pedir a Git que tome otra instantánea.
+
+**git add**: Es el comando que se usa para indicar a Git que empiece a realizar un seguimiento de los cambios en determinados archivos. Todos los cambios agregados mediante **add** son candidatos a ser incluidos en un **commit**.
+
+**git commit**: Después de haber almacenado provisionalmente algunos cambios para su confirmación, puede guardar el trabajo en una instantánea si invoca al comando git commit.
+
+**git log**: not permite ver la información de cada commit realizado en la rama activa.
+
+**git help**: Nos ayuda a obtner inforación sobre los comandos que podemos ejecutar en git
